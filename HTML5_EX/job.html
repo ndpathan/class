@@ -1,0 +1,70 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Job Application Form</title>
+</head>
+<body>
+
+    <h1>Job Application Form</h1>
+
+    <form>
+
+        Full Name:
+        <input type="text" name="fullname" required>
+        <br><br>
+
+        Email:
+        <input type="email" name="email" required>
+        <br><br>
+
+        Phone Number:
+        <input type="tel" name="phone" required>
+        <br><br>
+
+        Date of Birth:
+        <input type="date" name="dob">
+        <br><br>
+
+        Gender:
+        <input type="radio" name="gender" value="Male"> Male
+        <input type="radio" name="gender" value="Female"> Female
+        <input type="radio" name="gender" value="Other"> Other
+        <br><br>
+
+        Highest Qualification:
+        <select name="qualification">
+            <option>12th</option>
+            <option>Diploma</option>
+            <option>Graduate</option>
+            <option>Post Graduate</option>
+        </select>
+        <br><br>
+
+        Skills:
+        <textarea name="skills" rows="3"></textarea>
+        <br><br>
+
+        Years of Experience:
+        <input type="number" name="experience" min="0">
+        <br><br>
+
+        Expected Salary:
+        <input type="number" name="salary">
+        <br><br>
+
+        Upload Resume:
+        <input type="file" name="resume">
+        <br><br>
+
+        LinkedIn Profile URL:
+        <input type="url" name="linkedin">
+        <br><br>
+
+        <input type="submit" value="Submit Application">
+        <input type="reset" value="Reset">
+
+    </form>
+
+</body>
+</html>
