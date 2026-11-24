@@ -1,0 +1,76 @@
+<html>
+    <head>
+        <title>
+            bus route form
+        </title>
+    </head>
+    <body>
+        <form action="suc.html">
+            <h1 align="center">Enter Details</h1>
+            <table border="5" width="100%  cellspacing="5">
+                <tr align="center" >
+                    <td>
+                        <label for="source">source</label>
+                        <br>
+                        <input type="text" name="source" id="source">
+                    </td>
+                    <td>
+                        <lable for="destination">Destination</lable>
+                        <br>
+                        <input type="text" name="destination" id="destination">
+                    </td>
+                    <td>
+                        <lable for="journeydate">Journeydate</lable>
+                        <br>
+                        <input type="date" name="journeydate" id="journeydate">
+                    </td>
+                    <td>
+                        <lable for="">Seat</lable>
+                        <select name="Seat" id="seat">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                        </select>
+                        <td>
+                            <lable for="">Select Bus Type:</lable>
+                            <br>
+                            <lable for="express">
+                                <input type="checkbox" name="BS" id="ex">Express
+                            </lable>
+                            <br>
+                            <lable for="AC">
+                                <input type="checkbox" name="BS" id="AC">AC
+                            </lable>
+                            <br>
+                            <lable for="Volvo">
+                                <input type="checkbox" name="BS" id="vo">Volvo
+                            </lable>
+                            <br>
+                            <lable for="sleeper">
+                                <input type="checkbox" name="BS" id="sp">Sleeper
+                            </lable>
+                            <br>
+                        </td>
+                        <td>
+                            <label for="Select Gender">Select Gender:</label>
+                            <br>
+                            <label for="Male">
+                                <input type="radio" id="male" name="gender">Male
+                            </label>
+                            <br>
+                            <label for="Female">
+                                <input type="radio" id="female" name="gender">Female
+                            </label>
+                            <br>
+                        </td>
+                         <td>
+                            <input type="submit" value="search">
+                         </td>
+                    </td>
+                </tr>
+            </table>
+        </form>    
+    </body>
+</html>
