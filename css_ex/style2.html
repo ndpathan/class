@@ -1,0 +1,73 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSS Cards</title>
+
+    <style>
+        body {
+            font-family: Arial;
+            background-color: lightgray;
+            text-align: center;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin: 30px;
+        }
+
+        .card {
+            width: 250px;
+            background-color: white;
+            border: 2px solid black;
+            border-radius: 15px;
+            padding: 15px;
+            box-shadow: 5px 5px 10px gray;
+        }
+
+        .card img {
+            width: 100%;
+            height: 150px;
+            border-radius: 10px;
+        }
+
+        .card h2 {
+            color: blue;
+        }
+
+        .card p {
+            color: darkgreen;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>My Three Cards</h1>
+
+    <div class="container">
+
+        <div class="card">
+            <h2>Nature</h2>
+            <img src="nature.jpg" alt="Nature">
+            <p>Nature is beautiful and full of greenery.</p>
+        </div>
+
+        <div class="card">
+            <h2>Technology</h2>
+            <img src="technology.jpg" alt="Technology">
+            <p>Technology makes our life easier.</p>
+        </div>
+
+        <div class="card">
+            <h2>Education</h2>
+            <img src="education.jpg" alt="Education">
+            <p>Education helps us to gain knowledge.</p>
+        </div>
+
+    </div>
+
+</body>
+</html>
